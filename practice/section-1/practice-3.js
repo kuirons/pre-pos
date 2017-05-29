@@ -1,5 +1,12 @@
 'use strict';
 
 function collectSameElements(collectionA, objectB) {
-  return '实现练习要求，并改写该行代码。';
+  var vara=collectionA.join()
+  var result=new Array()
+  for(var i=0;i<vara.length;i++){
+    if(objectB.value.indexOf(vara[i])!=-1){
+      result.push(vara[i])
+    }
+  }
+  return result;
 }
